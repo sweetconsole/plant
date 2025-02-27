@@ -1,0 +1,51 @@
+.follow {
+   margin: 0 auto;
+   margin-top: 80px;
+   text-align: center;
+   width: 1150px;
+   
+}
+
+.follow-text {
+   margin-top: 10px;
+   margin-bottom: 40px;
+}
+
+.follow-items {
+   display: flex;
+   justify-content: space-between; 
+}
+
+.follow-item {
+   width: 230px;
+   height: 240px;
+   position: relative;
+}
+
+.follow-image {
+   width: 100%;
+   height: 100%;
+}
+
+.follow-networks {
+   position: absolute;
+   background-color: #000;
+   opacity: 0;
+   top: 0;
+   left: 0;
+   width: 230px;
+   height: 240px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.5s ease-in;
+}
+
+.follow-item:hover .follow-networks {
+   opacity: 0.5;
+}
+
+.follow-instagram {
+   width: 80px;
+   height: 80px;
+}

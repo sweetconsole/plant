@@ -1,0 +1,6 @@
+.Title {
+   color: #1A1A1A;
+   font-family: var(--nunito);
+   font-weight: var(--bold);
+   line-height: 50px;
+}

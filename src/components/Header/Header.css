@@ -1,0 +1,39 @@
+.Header {
+   margin-top: 40px;
+   margin-bottom: 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.Header-Logo {
+   font-family: var(--nunito);
+   font-weight: var(--bold);
+   font-size: 24px;
+   color: #1A1A1A;
+   text-decoration: none;
+}
+
+.Header-Links {
+   width: 400px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.Header-Link {
+   font-family: var(--dm-sans);
+   font-size: 16px;
+   color: #1A1A1A;
+   text-decoration: none;
+   transition: color .2s linear;
+}
+
+.Header-Link:hover {
+   color: #066F14;
+}
+
+.Header-Buttons {
+   width: 300px;
+   display: flex;
+   justify-content: space-between;
+}

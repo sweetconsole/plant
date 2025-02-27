@@ -1,0 +1,106 @@
+.reviews {
+   width: 1150px;
+   margin: 0 auto;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 130px;
+}
+
+.reviews-info {
+   width: 500px;
+}
+
+.reviews-text {
+   margin-top: 15px;
+   margin-bottom: 40px;
+}
+
+.reviews-image {
+   width: 600px;
+   height: 430px;
+}
+
+
+/* Feedback */
+.feedback {
+   position: absolute;
+   width: 540px;
+   height: 165px;
+   padding: 20px 30px;
+   background-color: #066F14;
+}
+
+.feedback-inner {
+   position: relative;
+}
+
+.feedback-profile {
+   position: relative;
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.feedback-avater {
+   width: 60px;
+   height: 60px;
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-right: 10px;
+}
+
+.feedback-name {
+   font-family: var(--nunito);
+   font-weight: var(--semi-bold);
+   color: #fff;
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.feedback-job {
+   color: #D9D9D9;
+   font-family: var(--dm-sans);
+   font-size: 14px;
+}
+
+.feedback-marks {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 40px;
+   height: 40px;
+}
+
+.feedback-text {
+   font-family: var(--dm-sans);
+   line-height: 1.6;
+   color: #ECECEC;
+}
+
+.feedback-buttons {
+   position: absolute;
+   bottom: -30px;
+   right: -30px;
+}
+
+.feedback-button {
+   width: 25px;
+   height: 25px;
+   border: none;
+   background-color: #143B19;
+   background-image: url("../../assets/reviews/arrow.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   transition: all 0.75s linear;
+}
+
+.feedback-button:hover {
+   background-color: #fff;
+   background-image: url("../../assets/reviews/arrow-hover.png");
+}
+
+.feedback-button:first-child {
+   transform: rotate(180deg);
+}

@@ -1,0 +1,52 @@
+.about-us {
+   margin-top: 110px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.about-us-image {
+   position: relative;
+   width: 515px;
+   height: 480px;
+}
+
+.about-us-image img {
+   position: absolute;
+   top: 40px;
+   left: 70px;
+   width: 445px;
+   height: 440px;
+   z-index: 2;
+}
+
+.about-us-background {
+   background-color: #066F14;
+   width: 445px;
+   height: 440px;
+}
+
+.about-us-info {
+   width: 505px;
+}
+
+.about-us-suptitle {
+   color: #066F14;
+   font-size: 18px;
+   font-family: var(--dm-sans);
+   font-weight: var(--medium);
+   margin-bottom: 10px;
+}
+
+.about-us-words {
+   margin-top: 25px;
+}
+
+.about-us-text {
+   margin-top: 20px;
+   margin-bottom: 40px;
+   color: #4A4A4A;
+   font-size: 18px;
+   font-family: var(--dm-sans);
+   font-weight: var(--medium);
+   line-height: 1.6;
+}
