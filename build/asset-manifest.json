@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.dc42a1b0.css",
-    "main.js": "./static/js/main.d9fde1fb.js",
-    "static/media/image.png": "./static/media/image.6762e7765f0c64e3a401.png",
-    "static/media/about-us.png": "./static/media/about-us.d0997ef93f260d78f592.png",
-    "static/media/intro.png": "./static/media/intro.a60b506d2f957cb7ff3e.png",
-    "static/media/1.png": "./static/media/1.a4290d9bab1e8d952214.png",
-    "static/media/subscribe.png": "./static/media/subscribe.4c95187cef56ea84075c.png",
-    "static/media/2.png": "./static/media/2.72f05a27fdeeb7632b83.png",
-    "static/media/4.png": "./static/media/4.6d7e958e0a061935af4f.png",
-    "static/media/3.png": "./static/media/3.942f4002354133b92c83.png",
-    "static/media/5.png": "./static/media/5.9dc8355ccfe02733cce6.png",
-    "static/media/avatar-two.jpg": "./static/media/avatar-two.81a3fa8156507d4ee355.jpg",
-    "static/media/leaves.png": "./static/media/leaves.81de308abc4a6e086f38.png",
-    "static/media/avatar.png": "./static/media/avatar.b17224529149256699a1.png",
-    "index.html": "./index.html",
-    "main.dc42a1b0.css.map": "./static/css/main.dc42a1b0.css.map",
-    "main.d9fde1fb.js.map": "./static/js/main.d9fde1fb.js.map"
+    "main.css": "/plant/static/css/main.dc42a1b0.css",
+    "main.js": "/plant/static/js/main.53e2048c.js",
+    "static/media/image.png": "/plant/static/media/image.6762e7765f0c64e3a401.png",
+    "static/media/about-us.png": "/plant/static/media/about-us.d0997ef93f260d78f592.png",
+    "static/media/intro.png": "/plant/static/media/intro.a60b506d2f957cb7ff3e.png",
+    "static/media/1.png": "/plant/static/media/1.a4290d9bab1e8d952214.png",
+    "static/media/subscribe.png": "/plant/static/media/subscribe.4c95187cef56ea84075c.png",
+    "static/media/2.png": "/plant/static/media/2.72f05a27fdeeb7632b83.png",
+    "static/media/4.png": "/plant/static/media/4.6d7e958e0a061935af4f.png",
+    "static/media/3.png": "/plant/static/media/3.942f4002354133b92c83.png",
+    "static/media/5.png": "/plant/static/media/5.9dc8355ccfe02733cce6.png",
+    "static/media/avatar-two.jpg": "/plant/static/media/avatar-two.81a3fa8156507d4ee355.jpg",
+    "static/media/leaves.png": "/plant/static/media/leaves.81de308abc4a6e086f38.png",
+    "static/media/avatar.png": "/plant/static/media/avatar.b17224529149256699a1.png",
+    "index.html": "/plant/index.html",
+    "main.dc42a1b0.css.map": "/plant/static/css/main.dc42a1b0.css.map",
+    "main.53e2048c.js.map": "/plant/static/js/main.53e2048c.js.map"
   },
   "entrypoints": [
     "static/css/main.dc42a1b0.css",
-    "static/js/main.d9fde1fb.js"
+    "static/js/main.53e2048c.js"
   ]
 }
