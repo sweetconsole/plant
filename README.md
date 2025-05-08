@@ -27,6 +27,3 @@ npm install
 ```
 npm start
 ```
-## Внешний вид верстки сайта
-
-<img src="https://i.ibb.co/R4QdbWds/sweetconsole-github-io-plant-build.png" alt="Изобржанение вертски сайта" />
