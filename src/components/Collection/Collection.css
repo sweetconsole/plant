@@ -1,0 +1,39 @@
+.colections {
+   margin-top: 80px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.collection-info {
+   width: 390px;
+   position: relative;
+}
+
+.colliction-link {
+   bottom: 20px;
+   position: absolute;
+   color: #4A4A4A;
+   font-size: 18px;
+   font-family: var(--dm-sans);
+}
+
+.collections {
+   width: 770px;
+   display: flex;
+   justify-content: space-between;
+   user-select: none;
+}
+
+.collections-item {
+   width: 240px;
+   height: 230px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 4px;
+}
+
+.collections-image {
+   width: 195px;
+   height: 195px;
+}

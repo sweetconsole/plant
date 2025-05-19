@@ -1,0 +1,14 @@
+.Button {
+   cursor: pointer;
+   font-family: var(--dm-sans);
+   border-radius: 8px;
+   transition: all .2s linear;
+   border: 3px solid #066F14;
+   background: none;
+   color: #1A1A1A;
+}
+
+.Button:hover {
+   background-color: #066F14;
+   color: #FFF;
+}
