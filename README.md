@@ -1,9 +1,9 @@
 # Plant
 
-Верстка лендинга по продаже комнатных растений на React.js c использованием препроцессора sass.
+Верстка лендинга по продаже комнатных растений на <strong>React</strong> c использованием препроцессора <strong>SCSS</strong>.
 ## Технологии
 
-<div id="steck" align="left">
+<div id="steck">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="30" height="30" alt="HTML" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" width="30" height="30" alt="SCSS" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="30" height="30" alt="JavaScript" />   
