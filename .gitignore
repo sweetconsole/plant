@@ -17,6 +17,7 @@ bun.lock
 .vscode/*
 !.vscode/extensions.json
 .idea
+dist
 .DS_Store
 *.suo
 *.ntvs*

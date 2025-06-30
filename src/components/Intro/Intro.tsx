@@ -13,7 +13,7 @@ const Intro = () => {
       <div className={styles.inner}>
         <h1 className={styles.title}>Growing Beautiful Plants at Home</h1>
         <Text text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at." />
-        <Button text="Learn More" font_size="18" padding="15px 30px" />
+        <Button text="Learn More" fontSize="18" padding="15px 30px" />
 
         <div className={styles.info}>
           {counters.map((counter, key) => (

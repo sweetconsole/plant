@@ -1,9 +1,9 @@
 import { type FC, useState } from "react";
 import Star from '../../../assets/images/product/star.png'
-import { type PlantCollectionType } from "../../Collection/collection.type.ts";
+import { type ProductType } from "../products.type.ts";
 import styles from "./Product.module.scss"
 
-const Product: FC<PlantCollectionType> = ({image, title, price, color}) => {
+const Product: FC<ProductType> = ({image, title, price, color}) => {
   const [hover, setHover] = useState(false)
 
   const handleMouseEnter = () => {
@@ -13,8 +13,6 @@ const Product: FC<PlantCollectionType> = ({image, title, price, color}) => {
   const handleMouseLeave = () => {
     setHover(false);
   }
-
-  console.log(hover)
 
   return (
     <div className={styles.product}

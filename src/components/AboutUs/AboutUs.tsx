@@ -21,7 +21,7 @@ const AboutUs: FC = () => {
 
             <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus.</p>
 
-            <Button text="Read More" font_size="18" padding="16px 32px" />
+            <Button text="Read More" fontSize="18" padding="16px 32px" />
         </div>
      </div>
   )

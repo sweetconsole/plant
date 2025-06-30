@@ -17,8 +17,8 @@ const Header: FC = () => {
       </div>
 
       <div className={styles.buttons}>
-        <Button text="Login" font_size="14" padding="10px 40px" filled={false} />
-        <Button text="Sing Up" font_size="14" padding="10px 40px" />
+        <Button text="Login" fontSize="14" padding="10px 40px" filled={false} />
+        <Button text="Sing Up" fontSize="14" padding="10px 40px" />
       </div>
     </div>
   )

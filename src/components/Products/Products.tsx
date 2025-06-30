@@ -22,7 +22,7 @@ const Products: FC = () => {
         ))}
       </div>
 
-      <Button text="View All" font_size="18" padding="16px 32px" />
+      <Button text="View All" fontSize="18" padding="16px 32px" />
     </div>
   );
 };
