@@ -1,6 +1,6 @@
 @use "./assets/styles/variables.scss";
 
 *::selection {
-   background-color: variables.$color-accent;
-   color: white;
+  background-color: variables.$color-accent;
+  color: white;
 }

@@ -1,8 +1,9 @@
-import Button from "../ui/Button/Button"
-import Link from "./Link/Link"
+import { type FC } from "react"
+import Button from "../ui/Button/Button.tsx"
+import Link from "./Link/Link.tsx"
 import styles from "./Header.module.scss"
 
-const Header = () => {
+const Header: FC = () => {
   return (
     <div className={styles.header}>
       <a className={styles.logo} href="/">Plant</a>

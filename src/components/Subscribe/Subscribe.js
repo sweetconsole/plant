@@ -1,6 +1,6 @@
-import Title from "../ui/Title/Title";
+import Title from "../ui/Title/Title.tsx";
 import Plant from '../../assets/images/subscribe.png'
-import Text from "../ui/Text/Text";
+import Text from "../ui/Text/Text.tsx";
 import styles from "./Subscribe.module.scss"
 
 const Subscribe = () => {

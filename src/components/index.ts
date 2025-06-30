@@ -1,0 +1,6 @@
+export { default as Header } from "./Header/Header.tsx"
+export { default as Intro } from "./Intro/Intro.tsx"
+export { default as Collection } from "./Collection/Collection.tsx"
+export { default as AboutUs } from "./AboutUs/AboutUs.tsx"
+export { default as Products } from "./Products/Products.tsx"
+export { default as Footer } from "./Footer/Footer.tsx"

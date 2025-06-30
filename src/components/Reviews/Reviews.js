@@ -1,7 +1,7 @@
-import Title from "../ui/Title/Title";
-import Feedback from "./Feedback/Feedback";
+import Title from "../ui/Title/Title.tsx";
+import Feedback from "./Feedback/Feedback.js";
 import Image from '../../assets/images/reviews/image.png'
-import Text from "../ui/Text/Text"
+import Text from "../ui/Text/Text.tsx"
 import styles from "./Reviews.module.scss"
 
 const Reviews = () => {

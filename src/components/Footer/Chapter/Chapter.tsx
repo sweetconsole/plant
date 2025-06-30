@@ -1,6 +1,8 @@
+import type { FC } from "react";
+import type { ChapterType } from "../footer.type.ts";
 import styles from "./Chapter.module.scss"
 
-const Chapter = ({title, links}) => {
+const Chapter: FC<ChapterType> = ({title, links}) => {
    return (
       <div>
          <p className={styles.title}>{title}</p>

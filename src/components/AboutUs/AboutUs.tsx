@@ -1,15 +1,16 @@
-import Image from "../../assets/images/about-us.png"
-import Title from "../ui/Title/Title";
-import Button from "../ui/Button/Button";
-import Text from "../ui/Text/Text";
+import { type FC } from "react"
+import Plant from "../../assets/images/about-us.png"
+import Title from "../ui/Title/Title.tsx";
+import Button from "../ui/Button/Button.tsx";
+import Text from "../ui/Text/Text.tsx";
 import styles from "./AboutUs.module.scss"
 
-const AboutUs = () => {
+const AboutUs: FC = () => {
   return (
      <div className={styles.block} id="about-us">
         <div className={styles.image_container}>
            <div className={styles.image_background} />
-           <img className={styles.image} src={Image} alt="Error load" />
+           <img className={styles.image} src={Plant} alt="Plant" />
         </div>
 
         <div className={styles.info}>

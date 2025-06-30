@@ -3,10 +3,10 @@ import PlantTwo from "../../assets/images/follow/2.png"
 import PlantThree from "../../assets/images/follow/3.png"
 import PlantFour from "../../assets/images/follow/4.png"
 import PlantFive from "../../assets/images/follow/5.png"
-import Title from "../ui/Title/Title"
-import Text from "../ui/Text/Text"
-import Post from "./Post/Post"
-import styles from  "./Follow.module.scss"
+import Title from "../ui/Title/Title.tsx"
+import Text from "../ui/Text/Text.tsx"
+import Post from "./Post/Post.js"
+import styles from "./Follow.module.scss"
 
 const Follow = () => {
   const gallery = [PlantOne, PlantTwo, PlantThree, PlantFour, PlantFive]
