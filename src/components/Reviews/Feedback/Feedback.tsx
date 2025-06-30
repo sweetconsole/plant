@@ -1,8 +1,9 @@
+import { type FC } from "react"
 import Marks from "../../../assets/images/reviews/marks.png"
 import AvatarOne from "../../../assets/images/reviews/avatar.png"
 import styles from "./Feedback.module.scss"
 
-const Feedback = () => {
+const Feedback: FC = () => {
    return (
       <div className={styles.feedback}>
          <div className={styles.container}>
@@ -10,17 +11,14 @@ const Feedback = () => {
                <div className={styles.author_photo} style={{ backgroundImage: `url(${AvatarOne})` }}/>
 
                <div>
-                  <p className={styles.author_name}>Hasanul Islam</p>
-                  <p className={styles.author_job}>Marketing SEO</p>
+                  <p className={styles.author_name}>Michael Thompson</p>
+                  <p className={styles.author_job}>Interior Designer</p>
                </div>
 
                <img className={styles.marks} src={Marks} alt="marks" />
             </div>
 
-            <p className={styles.text}>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in 
-               erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at.
-            </p>
+            <p className={styles.text}>Your store has impressed you with its excellent selection of plants, helpful tips, and high-quality delivery. The house immediately became more comfortable. I recommend it to everyone!</p>
 
             <div className={styles.buttons}>
                <button className={styles.button}></button>

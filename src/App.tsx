@@ -1,4 +1,4 @@
-import {Header, Intro, Collection, AboutUs, Products, Footer} from "./components"
+import {Header, Intro, Collection, AboutUs, Products, Reviews, Subscribe, Follow, Footer} from "./components"
 import { Container } from "./components/ui"
 import "./App.scss"
 
@@ -12,9 +12,9 @@ const App = () => {
         <Collection />
         <AboutUs />
         <Products />
-        {/*<Reviews />*/}
-        {/*<Subscribe />*/}
-        {/*<Follow />*/}
+        <Reviews />
+        <Subscribe />
+        <Follow />
       </main>
 
       <Footer />

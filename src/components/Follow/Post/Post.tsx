@@ -1,7 +1,12 @@
+import { type FC } from "react"
 import Instagram from "../../../assets/images/follow/Instagram.png"
 import styles from "./Post.module.scss"
 
-const Post = ({image}) => {
+interface IPostProps {
+	image: string
+}
+
+const Post: FC<IPostProps> = ({image}) => {
 	return (
 		<div className={styles.post}>
 			<img className={styles.image} src={image} alt="Follow" />

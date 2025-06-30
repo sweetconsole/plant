@@ -17,9 +17,9 @@ const AboutUs: FC = () => {
             <p className={styles.suptitle}>About Us</p>
             <Title text="Continue to Develop to Became Global Company" fontSize="40"/>
 
-            <Text style={styles.words} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at." />
+            <Text style={styles.words} text="Our cozy indoor plant store welcomes everyone who wants to immerse themselves in the magical world of greenery and beauty. Here you will find a huge selection of ornamental plants, ideal for any interior style — be it modern minimalism, classic elegance or the warm atmosphere of a country cottage. We offer unique plants that can transform any room." />
 
-            <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus.</p>
+            <p className={styles.text}>We give greenery to your home, comfort to the atmosphere, smiles to the hearts.</p>
 
             <Button text="Read More" fontSize="18" padding="16px 32px" />
         </div>

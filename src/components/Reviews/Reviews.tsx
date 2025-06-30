@@ -1,15 +1,15 @@
-import Title from "../ui/Title/Title.tsx";
-import Feedback from "./Feedback/Feedback.js";
+import { type FC } from "react"
 import Image from '../../assets/images/reviews/image.png'
-import Text from "../ui/Text/Text.tsx"
+import { Text, Title } from "../ui"
+import Feedback from "./Feedback/Feedback.tsx";
 import styles from "./Reviews.module.scss"
 
-const Reviews = () => {
+const Reviews: FC = () => {
   return (
     <div className={styles.block} id="reviews">
       <div className={styles.info}>
         <Title text="What Our Customers Says" fontSize="40" />
-        <Text style={styles.text} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accumsan sit amet nunc cursus. Nec tristique at in erat lectus mas sa diam. Lectus elit, nulla elementum fringilla at." />
+        <Text style={styles.text} text="They choose us for a large selection of healthy plants, expert advice, convenient delivery, high quality and affordable prices. We take care of your comfort and coziness at home." />
 
         <Feedback />
       </div>
