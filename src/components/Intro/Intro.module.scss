@@ -1,0 +1,46 @@
+@use "../../assets/styles/variables.scss";
+
+.intro {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+.leaves {
+   position: absolute;
+   z-index: -1;
+   width: 160px;
+   height: 195px;
+   transform: rotate(30deg);
+   top: 55%;
+   left: 40%;
+}
+
+.inner {
+   width: 600px;
+}
+
+.inner > p {
+   margin-top: 25px;
+   margin-bottom: 40px;
+}
+
+.title {
+   font-family: variables.$font-family-secondary;
+   font-weight: variables.$bold;
+   color: #1A1A1A;
+   font-size: 72px;
+   line-height: 92px;
+}
+
+.info {
+   margin-top: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.image {
+   width: 560px;
+   height: 720px;
+}

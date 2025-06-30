@@ -1,0 +1,35 @@
+@use "../../assets/styles/variables.scss";
+
+.footer {
+   margin: 130px auto 95px;
+   display: flex;
+   width: 1160px;
+   justify-content: space-between;
+}
+
+.info {
+   width: 305px;
+}
+
+.logo {
+   font-family: variables.$font-family-primary;
+   font-weight: variables.$bold;
+   margin-bottom: 20px;
+   font-size: 24px;
+   color: #1A1A1A;
+}
+
+.text {
+   margin-bottom: 20px;
+}
+
+.network {
+   margin-right: 15px;
+}
+
+.chapters {
+   display: flex;
+   justify-content: space-between;
+   width: 645px;
+}
+

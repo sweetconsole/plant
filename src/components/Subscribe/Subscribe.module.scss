@@ -1,0 +1,60 @@
+@use "../../assets/styles/variables.scss";
+
+.subscribe {
+   border-radius: 6px;
+   position: relative;
+   margin: 0 auto;
+   margin-top: 165px;
+   background-color: #DFFFE3;
+   padding: 60px 55px;
+   width: 930px;
+   height: 200px;
+}
+
+.info {
+   width: 480px;
+}
+
+.text {
+   margin-top: 10px;
+}
+
+.form {
+   position: relative;
+}
+
+.input {
+   margin-top: 30px;
+   width: 420px;
+   height: 15px;
+   padding: 20px;
+   border: none;
+   border-radius: 4px;
+   background-color: #FFF;
+}
+
+.button {
+   position: absolute;
+   padding: 10px 15px;
+   top: 40px;
+   right: 30px;
+   cursor: pointer;
+   font-family: variables.$font-family-primary;
+   border: none;
+   border-radius: 4px;
+   background-color: #066F14;
+   color: #FFF;
+   transition: all .2s ease-in;
+
+   &:hover {
+      transform: scale(1.1);
+   }
+}
+
+.image {
+   position: absolute;
+   width: 260px;
+   height: 355px;
+   bottom: 0;
+   right: 25px;
+}

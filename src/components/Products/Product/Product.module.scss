@@ -1,0 +1,49 @@
+@use "../../../assets/styles/variables.scss";
+
+.product {
+	width: 235px;
+	height: 220px;
+	cursor: pointer;
+	padding: 5px 30px 30px 30px;
+	transition: all .2s ease-in;
+
+	&:hover {
+		transform: scale(1.1);
+		box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+	}
+}
+
+.image_container {
+	width: 100%;
+	text-align: center;
+
+	img {
+		width: 135px;
+		height: 150px;
+	}
+}
+
+.name {
+	font-family: variables.$font-family-secondary;
+	font-weight: variables.$semi-bold;
+	color: #1A1A1A;
+	font-size: 24px;
+}
+
+.stars {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.star {
+	margin-right: 5px;
+	width: 16px;
+	height: 16px;
+}
+
+.price {
+	font-family: variables.$font-family-secondary;
+	font-weight: variables.$semi-bold;
+	color: #1A1A1A;
+	font-size: 19px;
+}

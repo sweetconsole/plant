@@ -1,0 +1,32 @@
+@use "../../assets/styles/variables.scss";
+
+.collection {
+   margin-top: 80px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.info {
+   width: 390px;
+   position: relative;
+}
+
+.link {
+   bottom: 20px;
+   position: absolute;
+   color: #4A4A4A;
+   font-size: 18px;
+   font-family: variables.$font-family-primary;
+   transition: all .2s ease-in;
+
+   &:hover {
+      color: variables.$color-accent;
+   }
+}
+
+.collections {
+   width: 770px;
+   display: flex;
+   justify-content: space-between;
+   user-select: none;
+}

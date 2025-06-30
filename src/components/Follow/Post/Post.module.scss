@@ -1,0 +1,36 @@
+
+.post {
+	width: 230px;
+	height: 230px;
+	position: relative;
+
+	&:hover {
+		.network {
+			opacity: 0.6;
+		}
+	}
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+}
+
+.network {
+	position: absolute;
+	background-color: black;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s ease-in;
+}
+
+.instagram {
+	width: 80px;
+	height: 80px;
+}

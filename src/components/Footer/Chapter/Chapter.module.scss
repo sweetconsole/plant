@@ -1,0 +1,21 @@
+@use "../../../assets/styles/variables.scss";
+
+.title {
+	font-family: variables.$font-family-primary;
+	font-weight: variables.$bold;
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #1A1A1A;
+}
+
+.link {
+	cursor: pointer;
+	margin-bottom: 15px;
+	font-family: variables.$font-family-primary;
+	transition: color .2s ease-in;
+	color: #5A5A5A;
+
+	&:hover {
+		color: #1A1A1A;
+	}
+}

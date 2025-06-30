@@ -1,0 +1,16 @@
+@use "../../../assets/styles/variables.scss";
+
+.link {
+	font-family: variables.$font-family-primary;
+	font-size: 16px;
+	cursor: pointer;
+	color: #1A1A1A;
+	text-decoration: none;
+	transition: color .2s ease-in;
+
+	&:hover {
+		color: #066F14;
+	}
+}
+
+

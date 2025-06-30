@@ -1,25 +1,25 @@
-import "./Header.css"
-import React from 'react'
-import Button from "../Button/Button"
+import Button from "../ui/Button/Button"
+import Link from "./Link/Link"
+import styles from "./Header.module.scss"
 
 const Header = () => {
   return (
-     <div className="Header">
-        <a className="Header-Logo" href="/">Plant</a>
+    <div className={styles.header}>
+      <a className={styles.logo} href="/">Plant</a>
 
-        <div className="Header-Links">
-            <a className="Header-Link" href="/">Home</a>
-            <a className="Header-Link" href="/">Services</a>
-            <a className="Header-Link" href="/">About Us</a>
-            <a className="Header-Link" href="/">Blog</a>
-            <a className="Header-Link" href="/">Contact</a>
-        </div>
+      <div className={styles.navigation}>
+        <Link link="collection" title="Collection" />
+        <Link link="about-us" title="Abous Us" />
+        <Link link="products" title="Products" />
+        <Link link="reviews" title="Reviews" />
+        <Link link="subscribe" title="Subscribe" />
+      </div>
 
-        <div className="Header-Buttons">
-           <Button text="Login" font_size="14" padding="10px 40px" />
-           <Button text="Sing Up" font_size="14" padding="10px 40px" />
-        </div>
-     </div>
+      <div className={styles.buttons}>
+        <Button text="Login" font_size="14" padding="10px 40px" filled={false} />
+        <Button text="Sing Up" font_size="14" padding="10px 40px" />
+      </div>
+    </div>
   )
 }
 

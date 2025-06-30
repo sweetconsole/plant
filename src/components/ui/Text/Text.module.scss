@@ -1,0 +1,7 @@
+@use "../../../assets/styles/variables.scss";
+
+.text {
+	font-family: variables.$font-family-primary;
+	color: #4A4A4A;
+	line-height: 1.6;
+}

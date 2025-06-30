@@ -1,0 +1,30 @@
+@use "../../assets/styles/variables.scss";
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+   background-color: white;
+   padding: 20px 0;
+}
+
+.logo {
+   font-family: variables.$font-family-secondary;
+   font-weight: variables.$bold;
+   font-size: 24px;
+   color: #1A1A1A;
+   text-decoration: none;
+}
+
+.navigation {
+   display: flex;
+   gap: 40px;
+}
+
+.buttons {
+   display: flex;
+   gap: 40px;
+}

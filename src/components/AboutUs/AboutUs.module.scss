@@ -1,0 +1,55 @@
+@use "../../assets/styles/variables.scss";
+
+.block {
+   margin-top: 110px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.image_container {
+   position: relative;
+   width: 515px;
+   height: 480px;
+}
+
+.image_background {
+   background-color: #066F14;
+   width: 445px;
+   height: 440px;
+}
+
+.image {
+   position: absolute;
+   top: 40px;
+   left: 70px;
+   width: 445px;
+   height: 440px;
+   z-index: 2;
+}
+
+
+.info {
+   width: 505px;
+}
+
+.suptitle {
+   color: #066F14;
+   font-size: 18px;
+   font-family: variables.$font-family-primary;
+   font-weight: variables.$medium;
+   margin-bottom: 10px;
+}
+
+.words {
+   margin-top: 25px;
+}
+
+.text {
+   margin-top: 20px;
+   margin-bottom: 40px;
+   color: #4A4A4A;
+   font-size: 18px;
+   font-family: variables.$font-family-primary;
+   font-weight: variables.$medium;
+   line-height: 1.6;
+}

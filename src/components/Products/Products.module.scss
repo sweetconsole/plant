@@ -1,0 +1,33 @@
+@use "../../assets/styles/variables.scss";
+
+.block {
+   margin-top: 130px;
+   text-align: center;
+}
+
+.categories {
+   width: 270px;
+   display: flex;
+   justify-content: space-between;
+   margin: 10px auto 0;
+}
+
+.category {
+   cursor: pointer;
+   font-family: variables.$font-family-primary;
+   font-weight: variables.$medium;
+   transition: color .2s linear;
+   color: #4A4A4A;
+
+   &:hover,
+   &_active {
+      color: #066F14;
+   }
+}
+
+.products {
+   margin-top: 50px;
+   margin-bottom: 40px;
+   display: flex;
+   justify-content: space-between;
+}

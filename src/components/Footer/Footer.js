@@ -1,9 +1,9 @@
-import "./Footer.css"
-import React from 'react';
-import Facebook from '../../assets/facebook.png'
-import Instagram from '../../assets/instagram.png'
-import Twitter from '../../assets/twitter.png'
-import FooterChapter from "./FooterChapter";
+import Facebook from '../../assets/images/facebook.png'
+import Instagram from '../../assets/images/instagram.png'
+import Twitter from '../../assets/images/twitter.png'
+import Chapter from "./Chapter/Chapter";
+import styles from "./Footer.module.scss"
+import Text from "../ui/Text/Text";
 
 const Footer = () => {
 	const linkNavigation = ["Home", "About", "Help & Support", "Product"]
@@ -11,22 +11,28 @@ const Footer = () => {
 	const linkHelp = ["Coustomers Services", "FAQs", "We Are Hiring", "Returns"]
 
 	return (
-		<div className="footer">
-			<div className="footer-info">
-				<p className="footer-name">Plant</p>
-				<p className="footer-text Text">
-					Lorem ipsum dolor sit amet, consectetur adi piscing elit. Diam nibh posuere duis eu non sit integer at placerat amet.
-				</p>
+		<div className={styles.footer}>
+			<div className={styles.info}>
+				<p className={styles.logo}>Plant</p>
+				<Text style={styles.text} text="Lorem ipsum dolor sit amet, consectetur adi piscing elit. Diam nibh posuere duis eu non sit integer at placerat amet." />
 
-				<a className="footer-networks" href="/"><img src={Facebook} alt="Facebook" /></a>
-				<a className="footer-networks" href="/"><img src={Twitter} alt="Twitter" /></a>
-				<a className="footer-networks" href="/"><img src={Instagram} alt="Instagram" /></a>
+				<a className={styles.network} href="/">
+					<img src={Facebook} alt="Facebook" />
+				</a>
+
+				<a className={styles.network} href="/">
+					<img src={Twitter} alt="Twitter" />
+				</a>
+
+				<a className={styles.network} href="/">
+					<img src={Instagram} alt="Instagram" />
+				</a>
 			</div>
 
-			<div className="footer-chapters">
-				<FooterChapter nameChapter="Navigation" nameLinks={linkNavigation} />
-				<FooterChapter nameChapter="About Us" nameLinks={linkAboutUs} />
-				<FooterChapter nameChapter="Help" nameLinks={linkHelp} />
+			<div className={styles.chapters}>
+				<Chapter title="Navigation" links={linkNavigation} />
+				<Chapter title="About Us" links={linkAboutUs} />
+				<Chapter title="Help" links={linkHelp} />
 			</div>
 		</div>
 	);

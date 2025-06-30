@@ -1,0 +1,19 @@
+@use "../../../assets/styles/variables.scss";
+
+.counter {
+   width: 110px;
+   text-align: center;
+}  
+
+.count {
+   font-family: variables.$font-family-secondary;
+   font-weight: var(--bold);
+   font-size: 36px;
+   color: #001B04;
+}
+
+.title {
+   font-family: variables.$font-family-primary;
+   font-size: 18px;
+   color: #1A1A1A;
+}

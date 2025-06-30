@@ -1,23 +1,23 @@
-import "./Subscribe.css"
-import React from 'react';
-import Title from "../Title/Title";
-import Plant from '../../assets/subscribe.png'
+import Title from "../ui/Title/Title";
+import Plant from '../../assets/images/subscribe.png'
+import Text from "../ui/Text/Text";
+import styles from "./Subscribe.module.scss"
 
 const Subscribe = () => {
   return (
-     <div className="subscribe">
-        <div className="subscribe-info">
-           <Title text="Subscribe Our Newsletter" fontSize="40" />
-           <p className="subscribe-text Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, at tempor, accumsan sit amet nunc cursus. </p>
+    <div className={styles.subscribe} id="subscribe">
+      <div className={styles.info}>
+        <Title text="Subscribe Our Newsletter" fontSize="40" />
+        <Text style={styles.text} text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, at tempor, accumsan sit amet nunc cursus." />
 
-           <form className="subscribe-form">
-               <input className="subscribe-input" type="email" placeholder="Enter mail..." />
-               <button className="subscribe-button">Subscribe</button>
-           </form>
-        </div>
+        <form className={styles.form}>
+          <input className={styles.input} type="email" placeholder="Enter mail..." />
+          <button className={styles.button}>Subscribe</button>
+        </form>
+      </div>
 
-        <img className="subscribe-image" src={Plant} alt="subscribe-plant" />
-     </div>
+      <img className={styles.image} src={Plant} alt="Error load" />
+    </div>
   );
 };
 
