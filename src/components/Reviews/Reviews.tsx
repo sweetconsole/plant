@@ -14,7 +14,7 @@ const Reviews: FC = () => {
         <Feedback />
       </div>
 
-      <img className={styles.image} src={Image} alt="Error load" />
+      <img className={styles.image} src={Image} width="600" height="430" alt="Error load" loading="lazy" />
     </div>
   );
 };

@@ -20,16 +20,16 @@ const Product: FC<ProductType> = ({image, title, price, color}) => {
          onMouseEnter={handleMouseEnter}
          onMouseLeave={handleMouseLeave}>
       <div className={styles.image_container}>
-        <img src={image} alt={title} />
+        <img src={image} alt={title} loading="lazy" />
       </div>
       <p className={styles.name}>{title}</p>
 
       <div className={styles.stars}>
-        <img className={styles.star} src={Star} alt="✨" />
-        <img className={styles.star} src={Star} alt="✨" />
-        <img className={styles.star} src={Star} alt="✨" />
-        <img className={styles.star} src={Star} alt="✨" />
-        <img className={styles.star} src={Star} alt="✨" />
+        <img className={styles.star} src={Star} width="16" height="16" alt="✨" loading="lazy" />
+        <img className={styles.star} src={Star} width="16" height="16" alt="✨" loading="lazy" />
+        <img className={styles.star} src={Star} width="16" height="16" alt="✨" loading="lazy" />
+        <img className={styles.star} src={Star} width="16" height="16" alt="✨" loading="lazy" />
+        <img className={styles.star} src={Star} width="16" height="16" alt="✨" loading="lazy" />
       </div>
 
       <p className={styles.price}>${price}</p>

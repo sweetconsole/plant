@@ -15,7 +15,7 @@ const Subscribe = () => {
         </form>
       </div>
 
-      <img className={styles.image} src={Plant} alt="Plant" />
+      <img className={styles.image} src={Plant} width="260" height="355" alt="Plant" loading="lazy" />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 # Plant
 
 Верстка лендинга по продаже комнатных растений на <strong>React</strong> c использованием языка программирования <strong>TypeScript</strong> и препроцессора <strong>SASS</strong>.
+
 ## Технологии
 
 <div id="steck">

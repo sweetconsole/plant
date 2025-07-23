@@ -15,7 +15,7 @@ const Feedback: FC = () => {
                   <p className={styles.author_job}>Interior Designer</p>
                </div>
 
-               <img className={styles.marks} src={Marks} alt="marks" />
+               <img className={styles.marks} src={Marks} width="40" height="40" alt="marks" />
             </div>
 
             <p className={styles.text}>Your store has impressed you with its excellent selection of plants, helpful tips, and high-quality delivery. The house immediately became more comfortable. I recommend it to everyone!</p>

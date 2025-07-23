@@ -18,7 +18,7 @@ const Footer: FC = () => {
 						 key={key}
 						 rel="noopener noreferrer"
 						 aria-label={network.name}>
-						<img src={network.image} alt={network.name} />
+						<img src={network.image}  width="48" height="48" alt={network.name} loading="lazy" />
 					</a>
 				))}
 			</div>

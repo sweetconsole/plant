@@ -10,7 +10,7 @@ const AboutUs: FC = () => {
      <div className={styles.block} id="about-us">
         <div className={styles.image_container}>
            <div className={styles.image_background} />
-           <img className={styles.image} src={Plant} alt="Plant" />
+           <img className={styles.image} src={Plant} width="445" height="440" alt="Plant" loading="lazy" />
         </div>
 
         <div className={styles.info}>
