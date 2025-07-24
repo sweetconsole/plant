@@ -21,8 +21,8 @@ const Feedback: FC = () => {
             <p className={styles.text}>Your store has impressed you with its excellent selection of plants, helpful tips, and high-quality delivery. The house immediately became more comfortable. I recommend it to everyone!</p>
 
             <div className={styles.buttons}>
-               <button className={styles.button}></button>
-               <button className={styles.button}></button>
+               <button className={styles.button} aria-label="Previous review"></button>
+               <button className={styles.button} aria-label="Next review"></button>
             </div>
          </div>
       </div>

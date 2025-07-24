@@ -8,7 +8,7 @@ import styles from "./Intro.module.scss"
 const Intro = () => {
   return (
     <div className={styles.intro}>
-      <img className={styles.leaves} src={Leaves} width="234" height="247" alt="Leaves" loading="lazy" />
+      <img className={styles.leaves} src={Leaves} width="234" height="247" alt="Leaves" />
 
       <div className={styles.inner}>
         <h1 className={styles.title}>Growing Beautiful Plants at Home</h1>
@@ -22,7 +22,7 @@ const Intro = () => {
         </div>
       </div>
 
-      <img className={styles.image} src={Plant} width="560" height="720" alt="Plant" loading="lazy" />
+      <img className={styles.image} src={Plant} width="560" height="720" alt="Plant" />
     </div>
   );
 };
