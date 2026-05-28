@@ -1,5 +1,5 @@
 import type { FC } from "react"
-import type { CounterType } from "../intro.interface.ts"
+import type { CounterType } from "../intro.data.ts"
 import styles from "./Counter.module.scss"
 
 const Counter: FC<CounterType> = ({count, title}) => {

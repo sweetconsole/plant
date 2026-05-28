@@ -1,23 +1,27 @@
-@use "../../assets/styles/variables.scss";
+@use "../../assets/styles/variables";
 
 .intro {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
    position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
 
 .leaves {
    position: absolute;
+   top: 55%;
+   left: 39%;
    z-index: -1;
    width: 234px;
    height: 247px;
-   top: 55%;
-   left: 39%;
 }
 
 .inner {
-   width: 600px;
+   width: 681px;
+
+   & > .info {
+      max-width: 600px;
+   }
 }
 
 .inner > p {
@@ -28,16 +32,16 @@
 
 .title {
    font-family: variables.$font-family-secondary;
-   font-weight: variables.$bold;
-   color: #1A1A1A;
    font-size: 72px;
+   font-weight: variables.$bold;
    line-height: 92px;
+   color: #1A1A1A;
 }
 
 .info {
-   margin-top: 60px;
    display: flex;
    justify-content: space-between;
+   margin-top: 60px;
 }
 
 .image {

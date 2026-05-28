@@ -1,38 +1,48 @@
-import Facebook from '../../assets/images/facebook.png'
-import Instagram from '../../assets/images/instagram.png'
-import Twitter from '../../assets/images/twitter.png'
-import type { NetworkType, ChapterType } from "./footer.type.ts";
+export type NetworkType = {
+	image: string
+	link: string
+	name: string
+}
 
+export type ChapterType = {
+	title: string
+	links: Array<string>
+}
 
 export const networks: Array<NetworkType> = [
 	{
-		image: Facebook,
+		image: "/images/facebook.png",
 		name: "Facebook",
-		link: "http://facebook.com/"
+		link: "https://facebook.com/"
 	},
 	{
-		image: Instagram,
+		image: "/images/instagram.png",
 		name: "Instagram",
-		link: "http://instagram.com/"
+		link: "https://instagram.com/"
 	},
 	{
-		image: Twitter,
+		image: "/images/twitter.png",
 		name: "Twitter",
 		link: "https://x.com/"
-	},
+	}
 ]
 
 export const chapters: Array<ChapterType> = [
 	{
-		title: "Navigation",
-		links: ["Home", "About", "Help & Support", "Product"]
+		title: "Навигация",
+		links: ["Главная", "О Нас", "Помощь и поддержка", "Растения"]
 	},
 	{
-		title: "About Us",
-		links: ["Contact", "Address", "Blog", "About Us"]
+		title: "О Нас",
+		links: ["Контакты", "Адреса", "Блог", "О Нас"]
 	},
 	{
-		title: "Help",
-		links: ["Customers Services", "FAQs", "We Are Hiring", "Returns"]
-	},
+		title: "Помощь",
+		links: [
+			"Обслуживание клиентов",
+			"Вопросы и ответы",
+			"Мы в поиске сотрудников",
+			"Возврат"
+		]
+	}
 ]

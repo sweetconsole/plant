@@ -1,21 +1,34 @@
 import { type FC } from "react"
-import Instagram from "../../../assets/images/follow/instagram.svg"
 import styles from "./Post.module.scss"
 
 interface IPostProps {
 	image: string
 }
 
-const Post: FC<IPostProps> = ({image}) => {
+const Post: FC<IPostProps> = ({ image }) => {
 	return (
 		<div className={styles.post}>
-			<img className={styles.image} src={image} width="230" height="230" alt="Follow" loading="lazy" />
+			<img
+				className={styles.image}
+				src={image}
+				width="230"
+				height="230"
+				alt=""
+				loading="lazy"
+			/>
 
-			<div className={styles.network}>
-				<img className={styles.instagram} src={Instagram}  width="80" height="80" alt="Instagram" loading="lazy" />
-			</div>
+			<a className={styles.network} href="/" aria-label="Открыть наш Instagram">
+				<img
+					className={styles.instagram}
+					src="/images/follow/instagram.svg"
+					width="80"
+					height="80"
+					alt=""
+					loading="lazy"
+				/>
+			</a>
 		</div>
-	);
-};
+	)
+}
 
-export default Post;
+export default Post

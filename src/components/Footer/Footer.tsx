@@ -1,7 +1,7 @@
 import { type FC } from "react"
-import { Text } from "../ui";
-import Chapter from "./Chapter/Chapter.tsx";
-import { networks, chapters } from "./footer.data.ts";
+import { Text } from "../ui"
+import Chapter from "./Chapter/Chapter.tsx"
+import { networks, chapters } from "./footer.data.ts"
 import styles from "./Footer.module.scss"
 
 const Footer: FC = () => {
@@ -9,16 +9,27 @@ const Footer: FC = () => {
 		<div className={styles.footer}>
 			<div className={styles.info}>
 				<p className={styles.logo}>Plant</p>
-				<Text style={styles.text} text="The Green Wonders Store is the inspiration, care and comfort of your home in every plant" />
+				<Text
+					style={styles.text}
+					text="«Green Wonders Store» — вдохновение, забота и уют в каждом растении"
+				/>
 
 				{networks.map((network, key) => (
-					<a className={styles.network}
-						 href={network.link}
-						 target="_blank"
-						 key={key}
-						 rel="noopener noreferrer"
-						 aria-label={network.name}>
-						<img src={network.image}  width="48" height="48" alt={network.name} loading="lazy" />
+					<a
+						className={styles.network}
+						href={network.link}
+						target="_blank"
+						key={key}
+						rel="noopener noreferrer"
+						aria-label={network.name}
+					>
+						<img
+							src={network.image}
+							width="48"
+							height="48"
+							alt={network.name}
+							loading="lazy"
+						/>
 					</a>
 				))}
 			</div>
@@ -29,7 +40,7 @@ const Footer: FC = () => {
 				))}
 			</div>
 		</div>
-	);
-};
+	)
+}
 
-export default Footer;
+export default Footer

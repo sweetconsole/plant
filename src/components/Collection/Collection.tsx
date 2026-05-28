@@ -7,8 +7,8 @@ const Collection = () => {
   return (
     <div className={styles.collection} id="collection">
       <div className={styles.info}>
-        <Title text="We have lots of plants collection for you and your family" fontSize="36" />
-        <a className={styles.link} href="/">See all collection </a>
+        <Title text="Большая коллекция растений для вас и вашей семьи" fontSize="36" />
+        <a className={styles.link} href="/">Вся коллекция</a>
       </div>
 
       <div className={styles.collections}>

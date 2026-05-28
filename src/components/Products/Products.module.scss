@@ -1,4 +1,4 @@
-@use "../../assets/styles/variables.scss";
+@use "../../assets/styles/variables";
 
 .block {
    margin-top: 130px;
@@ -6,18 +6,18 @@
 }
 
 .categories {
-   width: 270px;
    display: flex;
    justify-content: space-between;
+   width: 370px;
    margin: 10px auto 0;
 }
 
 .category {
-   cursor: pointer;
    font-family: variables.$font-family-primary;
    font-weight: variables.$medium;
-   transition: color .2s linear;
    color: #4A4A4A;
+   cursor: pointer;
+   transition: color .2s linear;
 
    &:hover,
    &_active {
@@ -26,8 +26,8 @@
 }
 
 .products {
-   margin-top: 50px;
-   margin-bottom: 40px;
    display: flex;
    justify-content: space-between;
+   margin-top: 50px;
+   margin-bottom: 40px;
 }

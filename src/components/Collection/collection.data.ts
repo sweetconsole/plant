@@ -1,19 +1,19 @@
-import PlantOne from "../../assets/images/collection/1.png"
-import PlantTwo from "../../assets/images/collection/2.png"
-import PlantThree from "../../assets/images/collection/3.png"
-import type {PlantCollectionType} from "./collection.type.ts";
+export type CollectionType = {
+	image: string
+	color: string
+}
 
-export const collection: Array<PlantCollectionType> = [
+export const collection: Array<CollectionType> = [
 	{
-		image: PlantOne,
+		image: "/images/collection/1.png",
 		color: "#F6EDE8"
 	},
 	{
-		image: PlantTwo,
+		image: "/images/collection/2.png",
 		color: "#F0F1F6"
 	},
 	{
-		image: PlantThree,
+		image: "/images/collection/3.png",
 		color: "#F6EDE8"
 	},
 ]

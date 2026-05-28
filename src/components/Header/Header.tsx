@@ -9,16 +9,16 @@ const Header: FC = () => {
       <a className={styles.logo} href="/">Plant</a>
 
       <div className={styles.navigation}>
-        <Link link="collection" title="Collection" />
-        <Link link="about-us" title="Abous Us" />
-        <Link link="products" title="Products" />
-        <Link link="reviews" title="Reviews" />
-        <Link link="subscribe" title="Subscribe" />
+        <Link link="collection" title="Коллекция" />
+        <Link link="about-us" title="О нас" />
+        <Link link="products" title="Растения" />
+        <Link link="reviews" title="Отзывы" />
+        <Link link="subscribe" title="Подписка" />
       </div>
 
       <div className={styles.buttons}>
-        <Button text="Login" fontSize="14" padding="10px 40px" filled={false} />
-        <Button text="Sing Up" fontSize="14" padding="10px 40px" />
+        <Button text="Войти" fontSize="14" padding="10px 40px" filled={false} />
+        <Button text="Регистрация" fontSize="14" padding="10px 40px" />
       </div>
     </div>
   )

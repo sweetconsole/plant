@@ -1,16 +1,19 @@
-import type {CounterType} from "./intro.interface.ts";
+export type CounterType = {
+	count: number
+	title: string
+}
 
 export const counters: Array<CounterType> = [
 	{
 		count: 2000,
-		title: "Delivery"
+		title: "Доставок"
 	},
 	{
 		count: 1200,
-		title: "Customers"
+		title: "Клиентов"
 	},
 	{
 		count: 1000,
-		title: "Products"
+		title: "Товаров"
 	},
 ]
